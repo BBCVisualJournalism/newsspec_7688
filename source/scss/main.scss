@@ -108,6 +108,7 @@ ul.ns__navstrip{
 		-webkit-transition: opacity .25s ease-in-out;
 		position:absolute;
 		width: 100%;
+		float: left;
 	}
 	.active{
 		*visibility: visible;
@@ -246,7 +247,7 @@ ul.ns__navstrip{
             background-color: rgb(0,0,0);
             background-color: rgba(0,0,0,0.7);
             padding:0.5em;
-            top: -0.85em;
+            top: -0.6em;
             float:right;
             color: $font-color;
         }

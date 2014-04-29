@@ -1,11 +1,11 @@
 
 <script>
     if ((!document.addEventListener) || (!Array.prototype.indexOf) || (!Array.prototype.forEach) ) {
-        document.write('<sc' + 'ript src="http://local.bbc.co.uk:1031/news/special/2014/newsspec_7688/content/english/js/lib/vendors/legacy-ie-polyfills.js?v=0.1.0"></sc' + 'ript>');
+        document.write('<sc' + 'ript src="http://www.bbc.co.uk/news/special/2014/newsspec_7688/content/english/js/lib/vendors/legacy-ie-polyfills.js?v=0.1.0"></sc' + 'ript>');
     }
 </script>
 <div>
-    <a href="http://local.bbc.co.uk:1031/news/special/2014/newsspec_7688/content/english/index.html?v=0.1.0" id="responsive-iframe-77549177" data-static-iframe-height="600">iFrame</a>
+    <a href="http://www.bbc.co.uk/news/special/2014/newsspec_7688/content/english/index.html?v=0.1.0" id="responsive-iframe-5230102" data-static-iframe-height="600">iFrame</a>
 </div>
 <script type="text/javascript">(function () {
 
@@ -128,7 +128,7 @@
             this.startWatching();
         },
         renderIframe: function () {
-            var link   = document.getElementById('responsive-iframe-77549177'),
+            var link   = document.getElementById('responsive-iframe-5230102'),
                 iframe = new IframeWatcher(link.href, link.parentNode.className, link.getAttribute('data-static-iframe-height'));
             link.parentNode.appendChild(iframe.elm);
             link.parentNode.removeChild(link);
