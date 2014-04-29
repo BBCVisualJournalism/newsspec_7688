@@ -5,7 +5,7 @@
     }
 </script>
 <div>
-    <a href="http://www.bbc.co.uk/news/special/2014/newsspec_7688/content/english/index.html?v=0.1.0" id="responsive-iframe-5230102" data-static-iframe-height="600">iFrame</a>
+    <a href="http://www.bbc.co.uk/news/special/2014/newsspec_7688/content/english/index.html?v=0.1.0" id="responsive-iframe-49878468" data-static-iframe-height="600">iFrame</a>
 </div>
 <script type="text/javascript">(function () {
 
@@ -128,7 +128,7 @@
             this.startWatching();
         },
         renderIframe: function () {
-            var link   = document.getElementById('responsive-iframe-5230102'),
+            var link   = document.getElementById('responsive-iframe-49878468'),
                 iframe = new IframeWatcher(link.href, link.parentNode.className, link.getAttribute('data-static-iframe-height'));
             link.parentNode.appendChild(iframe.elm);
             link.parentNode.removeChild(link);
