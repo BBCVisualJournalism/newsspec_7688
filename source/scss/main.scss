@@ -4,7 +4,15 @@ $orange: #f68b23;
 
 @import "news_special/defaults";
 
-
+.ns-panel__clickable {
+  background: #000;
+  color: #fff;
+  float: left;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  padding: 4px;
+  text-transform: uppercase;
+}
 
 .ns__clearfix {
     &:before,
@@ -27,7 +35,7 @@ $orange: #f68b23;
 	display: none;
 }
 ul.ns__navstrip{
-
+    clear: both;
 	-webkit-padding-start: 0;
 	-webkit-margin-before: 0;
 	-webkit-margin-after: 0;
@@ -260,6 +268,9 @@ ul.ns__navstrip{
         .ns__navstrip{
         	display:none;
         }
+		.ns-panel__clickable {
+			display: none;
+		}
         .ns__viewport{
         	height: 100%;
         	.ns__viewport__item{

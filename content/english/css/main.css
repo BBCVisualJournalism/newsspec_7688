@@ -413,6 +413,15 @@ table {
     .ns__share .share__tool {
       width: 30%; } }
 
+.ns-panel__clickable {
+  background: #000;
+  color: #fff;
+  float: left;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  padding: 4px;
+  text-transform: uppercase; }
+
 .ns__clearfix {
   *zoom: 1; }
   .ns__clearfix:before, .ns__clearfix:after {
@@ -432,6 +441,7 @@ table {
   display: none; }
 
 ul.ns__navstrip {
+  clear: both;
   -webkit-padding-start: 0;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
@@ -604,6 +614,8 @@ ul.ns__navstrip {
       right: 0;
       height: 6em; }
     .main .ns__navstrip {
+      display: none; }
+    .main .ns-panel__clickable {
       display: none; }
     .main .ns__viewport {
       height: 100%; }
