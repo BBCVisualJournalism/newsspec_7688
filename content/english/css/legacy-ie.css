@@ -429,13 +429,6 @@ table {
   .ns__clearfix:after {
     clear: both; }
 
-.column--primary {
-  width: 100%; }
-
-.column--secondary {
-  width: auto;
-  clear: both; }
-
 .ns__res__date {
   display: none; }
 
@@ -464,14 +457,17 @@ ul.ns__navstrip {
   ul.ns__navstrip .ns__nav__wrap-first {
     margin-left: 0 !important; }
   ul.ns__navstrip a.ns__nav__item {
-    height: 100%;
-    width: 100%;
+    height: 136px;
     display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
     border: 2px solid transparent;
     text-indent: -5000px;
     color: white; }
     ul.ns__navstrip a.ns__nav__item .ns__date_stamp {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
       box-sizing: border-box;
       position: absolute;
       text-indent: 0;
@@ -485,13 +481,19 @@ ul.ns__navstrip {
     -webkit-transition: border .25s ease-out;
     -moz-transition: border .25s ease-out;
     -o-transition: border .25s ease-out;
-    border: 2px solid #f68b23; }
+    border-top: 2px solid #f68b23;
+    border-left: 2px solid #f68b23;
+    border-right: 2px solid #f68b23; }
   ul.ns__navstrip a.ns__nav__item:hover {
     color: white;
-    border: 2px solid #f68b23; }
+    border-top: 2px solid #f68b23;
+    border-left: 2px solid #f68b23;
+    border-right: 2px solid #f68b23; }
   ul.ns__navstrip a.ns__nav__item:active {
     color: white;
-    border: 2px solid #f68b23; }
+    border-top: 2px solid #f68b23;
+    border-left: 2px solid #f68b23;
+    border-right: 2px solid #f68b23; }
 
 .ns__viewport {
   clear: both;
