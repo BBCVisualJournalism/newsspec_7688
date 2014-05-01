@@ -28,7 +28,7 @@
         }
 
         var urlParams = window.location.hash || '',
-            onBBC = window.location.host.search('bbc.co.uk') > -1;
+            onBBC = window.location.host.search('bbc.co') > -1;
         this.elm.src = href + '?hostid=' + hostId.split('//')[1] + '&onbbcdomain=' + onBBC + urlParams;
 
         this.lastRecordedHeight = this.elm.height;
