@@ -316,6 +316,7 @@ module.exports = function (grunt) {
                 'unqualified-attributes'        : false,
                 'vendor-prefix'                 : false,
                 'important'                     : false,
+                'ids'                           : false,
                 'force': true
             },
             src: ['./<%= multi_lang_site_generator.default.options.default_language_output_directory %>/css/main.css']
